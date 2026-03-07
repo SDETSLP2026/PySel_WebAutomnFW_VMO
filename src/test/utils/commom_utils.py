@@ -16,4 +16,4 @@ def webdriver_wait(driver, element_tuple, timeout):
 
 def webdriver_wait_url(driver, timeout):
     WebDriverWait(driver=driver, timeout=timeout).until(
-        EC.url_changes(Constants.app_dashboard_url()))
+        EC.url_changes(Constants().app_dashboard_url()))

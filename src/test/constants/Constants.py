@@ -1,11 +1,11 @@
 class Constants:
     def __init__(self):
-        print("constants loaded")
+        print("Loading Constants...")
 
     def app_url(self):
         return "https://app.vwo.com"
 
-    @staticmethod # These methods can be used without creating an object
+    @staticmethod  # These methods can be used without creating an object
     def app_dashboard_url():
         return "https://app.vwo.com/#/dashboard"
 
