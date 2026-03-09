@@ -58,7 +58,7 @@ def test_vwo_login_positive(setup):
         pwd=os.getenv("VALID_PASSWORD")
     )
 
-    # DashboardPage actions - Access the username & vetrify the same
+    # DashboardPage actions - Access the username & verify the same
     dashboard_page = DashboardPage(driver=driver)
     user_name = dashboard_page.logged_in_username_text()
     take_screen_shot(driver=driver, name="test_vwo_login_positive")
